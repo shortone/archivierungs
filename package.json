@@ -1,0 +1,10 @@
+{
+  "name": "archivierungs",
+  "description": "Home made movie archiver",
+  "main": "server.js",
+  "dependencies": {
+    "express": "4.11.2",
+    "mongoose": "3.8.23",
+    "body-parser": "1.11.0"
+  }
+}

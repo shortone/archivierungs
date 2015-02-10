@@ -1,0 +1,10 @@
+{
+  "name": "archivierungs",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "1.3.13",
+    "angular-route": "1.3.13",
+    "bootstrap": "3.3.2",
+    "font-awesome": "4.3.0"
+  }
+}
