@@ -1,6 +1,6 @@
 {
   "name": "archivierungs",
-  "description": "Home made movie archiver",
+  "description": "Archiver web application for movies/books/... home libraries",
   "main": "server.js",
   "dependencies": {
     "express": "4.11.2",

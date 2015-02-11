@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="archivierungs">
   <head>
     <meta charset="UTF-8">
 
@@ -8,6 +8,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/archivierungs.css">
 
     <!-- font-awesome -->
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
@@ -15,6 +16,7 @@
     <!-- JS -->
     <script src="libs/angular/angular.min.js"></script>
     <script src="libs/angular-route/angular-route.min.js"></script>
+    <script src="js/archivierungs.js"></script>
 
   </head>
   <body>
@@ -24,18 +26,12 @@
           <a href="/" class="navbar-brand">Archivierungs</a>
         </div>
         <div class="collapse navbar-collapse">
-          <form class="navbar-form navbar-left" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="search" />
-            </div>
-            <button type="submit" class="btn btn-default">Search</button>
-            <button class="btn btn-danger"><span class="fa fa-plus"></span></button>
-          </form>
+          <!-- button class="btn btn-danger"><span class="fa fa-plus"></span></button -->
         </div>
       </div>
     </div>
-    <div class="container">
-      <h2>It works</h2>
-    </div>
+
+    <div class="container" ng-view></div>
+
   </body>
 </html>
