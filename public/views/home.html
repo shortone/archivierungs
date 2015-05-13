@@ -12,3 +12,9 @@
     </form>
   </div>
 </div>
+<div class="recently-added">
+  <h1>Recently added</h1>
+  <div class="row" ng-repeat="movie in movies">
+    <span>{{ movie.title }} - {{ movie.year }}</span>
+  </div>
+</div>

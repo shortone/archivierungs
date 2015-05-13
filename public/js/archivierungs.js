@@ -10,6 +10,13 @@ angular.module('archivierungs', ['ngRoute'])
   });
 })
 .controller('HomeCtrl', function($scope, $location) {
+  $scope.movies = [{
+    title: 'The Rock',
+    year: 1995
+  }, {
+    title: 'Air Force One',
+    year: 1992
+  }];
   $scope.search = function() {
     $location.path('/search').search({
       query: $scope.query
